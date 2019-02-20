@@ -1,13 +1,13 @@
 package de.springframework.springpetclinic.model;
 
 public class PetType {
-    private String tyoeName;
+    private String typeName;
 
-    public String getTyoeName() {
-        return tyoeName;
+    public String getTypeName() {
+        return typeName;
     }
 
-    public void setTyoeName(String tyoeName) {
-        this.tyoeName = tyoeName;
+    public void setTypeName(String typeName) {
+        this.typeName = typeName;
     }
 }
