@@ -1,9 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: de.springframework.springpetclinic.SpringPetClinicApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.508 s <<< FAILURE! - in de.springframework.springpetclinic.SpringPetClinicApplicationTests
-contextLoads(de.springframework.springpetclinic.SpringPetClinicApplicationTests)  Time elapsed: 0.025 s  <<< ERROR!
-java.lang.IllegalStateException: Failed to load ApplicationContext
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: de.springframework.springpetclinic.model.Pet
-Caused by: org.hibernate.AnnotationException: No identifier specified for entity: de.springframework.springpetclinic.model.Pet
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.458 s - in de.springframework.springpetclinic.SpringPetClinicApplicationTests
