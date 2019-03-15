@@ -1,4 +1,4 @@
-package services;
+package de.springframework.springpetclinic.services;
 
 import de.springframework.springpetclinic.model.Owner;
 
