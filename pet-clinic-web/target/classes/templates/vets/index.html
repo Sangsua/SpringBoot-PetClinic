@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Vet list Page</title>
@@ -7,6 +7,21 @@
 <body>
 <h1>Vets</h1>
 <p th:text="'List of vets'">Vets test</p>
-
 </body>
+<table>
+    <thead>
+    <tr>
+    <th>ID</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="vet : ${vets}">
+        <td th:text="${vet.getId()}">Id</td>
+        <td th:text="${vet.getFirstName()}">FirstName</td>
+        <td th:text="${vet.getLastName()}">LastName</td>
+    </tr>
+    </tbody>
+</table>
 </html>
