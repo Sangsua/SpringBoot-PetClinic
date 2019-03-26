@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'vets')}">
 <head>
     <meta charset="UTF-8">
     <title>Vet list Page</title>
 </head>
+<!--/*@thymesVar id="vet" type="de.springframework.springpetclinic.model.Vet"*/-->
+
 <body>
 <h1>Vets</h1>
-<p th:text="'List of vets'">Vets test</p>
-</body>
-<table>
+<p th:text="'List of vets'">Vets list</p>
+<table class="table table-striped">
     <thead>
     <tr>
-    <th>ID</th>
-    <th>First Name</th>
-    <th>Last Name</th>
+        <th style="width: 150px">ID</th>
+        <th style="width: 150px">First N ame</th>
+        <th style="width: 150px">Last Name</th>
     </tr>
     </thead>
     <tbody>
@@ -24,4 +25,5 @@
     </tr>
     </tbody>
 </table>
+</body>
 </html>
