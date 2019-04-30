@@ -11,6 +11,7 @@ public class SpringPetClinicApplicationTests {
 
     @Test
     public void contextLoads() {
+
     }
 
 }
