@@ -5,7 +5,6 @@ import de.springframework.springpetclinic.repositories.OwnerRepository;
 import de.springframework.springpetclinic.repositories.PetRepository;
 import de.springframework.springpetclinic.repositories.PetTypeRepository;
 import de.springframework.springpetclinic.services.OwnerService;
-import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
